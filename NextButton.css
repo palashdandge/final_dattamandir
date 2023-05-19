@@ -1,0 +1,244 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    /* color: black; */
+  }
+  
+  .previous {
+    
+    /* background-color: #002147;
+    color: black; */
+    
+    background-color:darkorange;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 700px
+  }
+  
+  .next {
+    /* background-color:#002147;
+    color: white; */
+   
+    background-color:darkorange;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 10px;
+  }
+  
+  .next1 {
+    /* background-color:#002147;
+    color: white; */
+   
+    background-color:darkorange;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 700px;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+ 
+.hr1 {
+  position: relative;
+  top: 20px;
+  border: 10%;
+  height: 5px;
+  background: darkorange;
+  margin-bottom: 20px;
+}
+.hr2 {
+  position: relative;
+  top: 20px;
+  border: auto;
+  height: 10px;
+  background: darkorange;
+  margin-bottom: 20px;
+}
+
+ 
+
+
+
+ /* .sidebarrs{
+    font-size: 25px;
+    color: orangered;
+      padding: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    }
+  
+    .sidebars{
+    font-size: 25px;
+    color: orangered;
+    border-color: #000000;
+      padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+    }
+
+    /* .container{
+      width: 100%;
+      min-height: 100vh;
+      padding-left: 8%;
+      padding-right: 8%;
+      box-sizing: border-box;
+      overflow: hidden;
+    } */
+    /* .navbar{
+      flex: 1;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      text-align: center;
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      /* justify-content: center; */
+    /*  padding: 0 7%;
+      background:linear-gradient(#ff54a2,#ff575a);
+      
+    } 
+    .logo{
+      width: 50px;
+      cursor: pointer;
+      margin: 30px 0;
+    }
+    .menu-icon{
+      width: 25px;
+      cursor: pointer;
+    }
+    
+    nav{
+      flex: 1;
+      text-align: center;
+      width:100%;
+      height: 60px;
+    }
+    
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      margin-right: 30px;
+    } 
+
+    nav ul li a{
+      text-decoration: none;
+      color:white;
+      font-size: 19px;
+      margin-right: 50px;
+      margin-bottom: 60px;
+      transition: color .5s;
+    }
+      
+    
+    nav ul li a:hover{
+       color:#ff5ea2 ;
+    }
+     */
+
+
+
+
+     body {
+      margin: 0;
+      font-family: Arial;
+    }
+    
+
+    .sidebarrs {
+      font-size: 25px;
+      color: orangered;
+      padding: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  
+    .sidebars {
+      font-size: 25px;
+      color: orangered;
+      border-color: #000000;
+      padding: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .topics {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #fff; /* Replace with your desired background color */
+      z-index: 999; /* Adjust the z-index value as needed */
+    }
+    
+    .navbar {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      /* justify-content: center; */
+      position: fixed;
+      top: 50px;
+      left: 0;
+      z-index: 999;
+      background: linear-gradient(#ff54a2, #ff575a);
+      overflow: auto;
+    }
+   
+    
+    .logo {
+      width: 50px;
+      cursor: pointer;
+      margin: 30px 0;
+    }
+    
+    .menu-icon {
+      width: 25px;
+      cursor: pointer;
+    }
+    
+    nav {
+      flex: 1;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      text-align: center;
+      position: relative;
+      width: 100%;
+      height: 60px;
+      background: linear-gradient(#ff54a2, #ff575a);
+      padding: 0 7%;
+    }  
+    
+    nav ul li {
+      list-style: none;
+      display: inline-block;
+      margin-right: 30px;
+    }
+    
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 19px;
+      margin-right: 50px;
+      margin-bottom: 60px;
+      text-align: center;
+      /* transition: color 0.5s; */
+    }
+    
+    nav ul li a:hover {
+      color: #ff5ea2;
+    }
+    nav ul li:nth-child(2) {
+      margin-right: 10px; /* Adjust the value to reduce the right margin between "Home" and "Gallery" */
+      margin-left: 10px;
+     
+      
+    }
+    
